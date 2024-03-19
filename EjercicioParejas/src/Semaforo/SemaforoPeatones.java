@@ -11,13 +11,13 @@ public class SemaforoPeatones {
     public void cambiarEstadoPeatones() {
         switch (this.estadoPeatones) {
             case "rojo":
-                this.estadoPeatones = "verde";
+                this.estadoPeatones = "verde";// El semáforo de peatones comienza en estado verde por defecto
                 break;
             case "verde":
                 this.estadoPeatones = "rojo";
                 break;
             default:
-                System.out.println("Estado inválido.");
+                System.out.println("Estado no valido.");
                 break;
         }
     }
