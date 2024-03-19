@@ -17,13 +17,13 @@ public class SemaforoPeatones {
                 this.estadoPeatones = "rojo";
                 break;
             default:
-                System.out.println("Estado no valido.");
+                System.out.println("Estado invalidisimo.");
                 break;
         }
     }
 
     public void mostrarEstado() {
-        System.out.println("Semaforo peatones: " + this.estadoPeatones);
+        System.out.println("Semaforo peatones: " + this.estadoPeatones);// El semáforo de peatones comienza en estado verde por defecto
     }
 
     public static void main(String[] args) {
