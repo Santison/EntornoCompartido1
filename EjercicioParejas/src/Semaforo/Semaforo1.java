@@ -4,7 +4,7 @@ public class Semaforo1 {
     private String estado;
 
     public Semaforo1() {
-        this.estado = "rojo"; // El semáforo comienza en estado rojo por defecto aa
+        this.estado = "rojo"; // El semáforo comienza en estado rojo por defecto aaaa
     }
 
     public void cambiarEstado() {
